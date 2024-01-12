@@ -3,9 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Layout</title>
+    <title> Grid Area Layout</title>
+    <link rel="stylesheet" href="styles/layout.css">
 </head>
-<body>
+<body class="container">
+    <header class="header">
+        <h3>The Header</h3>
+    </header>
+    <nav class="nav">
+        <ul>
+            <!-- li*3>a{Nav $} -->
+            <li><a href="">Nav 1</a></li>
+            <li><a href="">Nav 2</a></li>
+            <li><a href="">Nav 3</a></li>
+        </ul>
+    </nav>
+    <main class="main">
+        <!-- article*2>h3{Main Article $}+p>lorem -->
+        <article>
+            <h3>Main Article 1</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis et assumenda voluptatum autem quis? Mollitia explicabo ea tempore vero illum ducimus cupiditate, quam, sit, impedit fugit ratione repellat tenetur fugiat?</p>
+        </article>
+        <article>
+            <h3>Main Article 2</h3>
+            <p>Voluptatibus illum sequi dignissimos itaque eligendi? Vitae dolorem sed in optio, sunt ducimus officiis qui facilis molestias, non sequi hic? Neque suscipit quibusdam ex dicta, quam veniam provident tempora quas?</p>
+        </article>
+    </main>
+    <aside>
+        <div class="sidebar">
+            <h4>sidebar</h4>
+        </div>
+        <div class="advertise">
+            <h4>advertise</h4>
+        </div>
+    </aside>
+    <footer class="footer">
+        <h3>The Footer</h3>
+    </footer>
     
 </body>
 </html>
